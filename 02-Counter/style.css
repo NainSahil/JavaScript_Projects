@@ -1,0 +1,37 @@
+body {
+  background: #f1f5f8;
+}
+.heading {
+  text-transform: capitalize;
+  padding: 1rem 0 1rem 0;
+}
+.counter {
+  background: white;
+  margin: 3rem auto;
+  width: 90vw;
+  text-align: center;
+  margin: auto;
+  min-height: 200px;
+}
+.value {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.btn {
+  background: transparent;
+  text-transform: uppercase;
+  margin: 1rem 0.25rem;
+  border: 2px solid #222;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  background: #222;
+  color: white;
+}
